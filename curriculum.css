@@ -24,13 +24,17 @@
     text-align: center;
     color: aliceblue;
     padding-top: 200px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 18px;
 }
 
-#contato{
+.contato{
     text-align: center;
     dominant-baseline: auto;
+    font-weight: bold;
     color: aliceblue;
-    font-size: x-large
+    font-size: 22px;
 }
 
 .containerSubtitle{
@@ -51,13 +55,11 @@
 
 #subTitulo{
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .cartaApresentacao {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     box-sizing: border-box;
     width: 100%;
     text-align: center;
@@ -97,6 +99,10 @@
 
 .referencia {
     text-align: left;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 22px;
+    
 }
 
 .expGrafico {
