@@ -72,6 +72,10 @@
     font-weight: bold;
 }
 
+.cartaApresentacao:hover{
+    background-color: rgb(94, 94, 94);
+}
+
 .listaExperiencias {
     text-align: center;
     border: solid 3px;
@@ -79,6 +83,10 @@
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.listaExperiencias:hover{
+    background-color: rgb(94, 94, 94);
 }
 
 .listaFormacao {
@@ -95,6 +103,10 @@
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.listaFormacao:hover{
+    background-color: rgb(94, 94, 94);
 }
 
 .referencia {
@@ -125,6 +137,10 @@
     margin-top: 10px
 }
 
+.expGrafico li:hover{
+    background-color: rgb(94, 94, 94);
+}
+
 .expTitulo {
     font-size: 15px;
 }
@@ -133,4 +149,28 @@
     font-size: 15px;
     font-weight: bold;
     margin: 10px 0 0; 
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+p:hover {
+    color: aliceblue;
+}
+
+h1:hover{
+    color: aliceblue;
+}
+
+h2:hover{
+    color: aliceblue;
+}
+
+h3:hover{
+    color: aliceblue;
+}
+
+h4:hover{
+    color: darkgoldenrod;
 }
