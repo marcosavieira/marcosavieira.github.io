@@ -53,11 +53,30 @@
     text-align: center;
 }
 
+.cartaApresentacao {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: solid 3px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .listaExperiencias {
     text-align: center;
     border: solid 3px;
     border-radius: 20px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .listaFormacao {
@@ -71,7 +90,9 @@
     padding-bottom: 20px;
     border: solid 3px;
     border-radius: 20px;
-    margin-top: 10px
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .referencia {
