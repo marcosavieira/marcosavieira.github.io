@@ -73,48 +73,37 @@
     border-radius: 20px;
     margin-top: 10px
 }
-.base_graf_Em_Busca {
-    width: 100%; /*tamanho lateral do grafico*/
-    background-color: darkgray;
-    height: 50px; /*altura do grafico, proporcional a 10 itens*/
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    border: solid 3px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-.Busca_nome {
-    width: 15%;
-    background-color: darkgray;
-    height: 20px; /*se alterar altura, alterar também altura da tabela*/
-    float: left;
-}
-.Busca_valor {
-    width: 85%;
-    background-color: darkgray;
-    height: 20px; /*altura igual a da classe Busca_nome*/
-    float: right;
-}
-.Busca_nome_centralizado {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-}
-.insert_busca_width {
-    background-color: black;
-    height: 14px;
-    color: white;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 12px;
-}
 
 .referencia {
     text-align: left;
+}
+
+.expGrafico {
+    position: relative;
+    width: 520px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.expGrafico li {
+    display:inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 3px;
+    border-radius: 20px;
+    margin-top: 10px
+}
+
+.expTitulo {
+    font-size: 15px;
+}
+
+.descricao {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 0; 
 }
