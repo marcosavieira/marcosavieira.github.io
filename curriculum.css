@@ -45,7 +45,6 @@
 
 .contato{
     text-align: center;
-    dominant-baseline: auto;
     font-weight: bold;
     color: aliceblue;
     font-size: 22px;
@@ -53,7 +52,6 @@
 
 .contatoLogo {
     text-align: center;
-    dominant-baseline: auto;
     font-weight: bold;
     color: aliceblue;
     font-size: 22px;
