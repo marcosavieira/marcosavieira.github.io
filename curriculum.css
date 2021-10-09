@@ -37,6 +37,20 @@
     font-size: 22px;
 }
 
+.contatoLogo {
+    text-align: center;
+    dominant-baseline: auto;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.contatoLogo img {
+    width: 40px;
+    padding: 5px 1em 0px 0em;
+    margin: 0em -12px -5px;
+}
+
 .containerSubtitle{
     display: flex;
     flex-direction: column;
