@@ -18,7 +18,9 @@
     text-align: center;
     color: aliceblue;
     padding-top: 100px;
-    line-height: 30px
+    line-height: 30px;
+    transform: scale(1);
+    transition: 1s all;
 }
 
 .containerDadosReferencia{
@@ -28,17 +30,17 @@
     font-weight: bold;
     color: aliceblue;
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
+    transform: scale(1);
+    transition: 1s all;
 }
 
 .containerDadosReferencia:hover {
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .containerDadosContato:hover {
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .contato{
@@ -107,6 +109,8 @@
     margin: 20px 20px 40px 80px;
     font-size: 22px;
     font-weight: bold;
+    transform: scale(1);
+    transition: 1s all;
 }
 
 .cartaApresentacao p {
@@ -118,7 +122,6 @@
 .cartaApresentacao:hover{
     background-color: rgb(94, 94, 94);
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .listaExperiencias {
@@ -131,6 +134,9 @@
     margin: 20px 20px 40px 80px;
     font-size: 22px;
     font-weight: bold;
+    transform: scale(1);
+    transition: 1s all;
+    
 }
 
 .listaExperiencias h2 {
@@ -150,7 +156,6 @@
 .listaExperiencias:hover {
     background-color: rgb(94, 94, 94);
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .listaFormacao {
@@ -163,6 +168,8 @@
     margin: 20px 20px 40px 80px;
     font-size: 22px;
     font-weight: bold;
+    transform: scale(1);
+    transition: 1s all;
 }
 
 .listaFormacao h3 {
@@ -182,7 +189,6 @@
 .listaFormacao:hover{
     background-color: rgb(94, 94, 94);
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .expGrafico {
@@ -202,7 +208,9 @@
     box-sizing: border-box;
     border: solid 3px;
     border-radius: 20px;
-    margin-top: 10px
+    margin-top: 10px;
+    transform: scale(1);
+    transition: 1s all;
 }
 
 .expGrafico li h3 {
@@ -227,7 +235,6 @@
 .expGrafico li:hover{
     background-color: rgb(94, 94, 94);
     transform: scale(1.05);
-    transition: 1s all;
 }
 
 .expTitulo {
