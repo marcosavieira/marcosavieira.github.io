@@ -74,6 +74,8 @@
 
 .cartaApresentacao:hover{
     background-color: rgb(94, 94, 94);
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 .listaExperiencias {
@@ -87,6 +89,8 @@
 
 .listaExperiencias:hover{
     background-color: rgb(94, 94, 94);
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 .listaFormacao {
@@ -107,6 +111,8 @@
 
 .listaFormacao:hover{
     background-color: rgb(94, 94, 94);
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 .referencia {
@@ -139,6 +145,8 @@
 
 .expGrafico li:hover{
     background-color: rgb(94, 94, 94);
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 .expTitulo {
@@ -153,24 +161,36 @@
 
 a:hover {
     color: darkgoldenrod;
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 p:hover {
     color: aliceblue;
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 h1:hover{
     color: aliceblue;
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 h2:hover{
     color: aliceblue;
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 h3:hover{
     color: aliceblue;
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 h4:hover{
     color: darkgoldenrod;
+    transform: scale(1.05);
+    transition: 1s all;
 }
