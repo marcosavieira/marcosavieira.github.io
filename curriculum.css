@@ -27,8 +27,18 @@
     padding-top: 200px;
     font-weight: bold;
     color: aliceblue;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px
+}
+
+.containerDadosReferencia:hover {
+    transform: scale(1.05);
+    transition: 1s all;
+}
+
+.containerDadosContato:hover {
+    transform: scale(1.05);
+    transition: 1s all;
 }
 
 .contato{
@@ -173,14 +183,6 @@
     background-color: rgb(94, 94, 94);
     transform: scale(1.05);
     transition: 1s all;
-}
-
-.referencia {
-    text-align: left;
-    font-weight: bold;
-    color: aliceblue;
-    font-size: 22px;
-    
 }
 
 .expGrafico {
